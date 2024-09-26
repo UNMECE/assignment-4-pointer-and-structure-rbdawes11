@@ -4,15 +4,6 @@
 
 #include "item.h"
 
-/*struct _Item
-{
-    double price;
-    char *sku;
-    char *name;
-    char *category;
-};
-typedef struct _Item Item;*/
-
 void add_item(Item *item_list, double price, char *sku, char *category, char *name, int index)
 {
 	for(index = 0; index < 5; index++)
